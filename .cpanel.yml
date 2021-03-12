@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mlabxyz/m2team.xyz/wp-content/themes/m2team-wp-theme/
+    - /bin/cp -R * $DEPLOYPATH

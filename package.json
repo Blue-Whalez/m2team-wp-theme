@@ -1,0 +1,21 @@
+{
+  "name": "m2team-wp-theme",
+  "version": "1.0.0",
+  "description": "",
+  "author": "M2 Team",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "devDependencies": {
+    "@wordpress/scripts": "^12.1.0",
+    "dir-archiver": "^1.1.1",
+    "node-sass": "^4.14.1",
+    "rtlcss": "^2.5.0"
+  },
+
+  "scripts": {
+    "watch": "node-sass --recursive --watch dev/ -o ./ --output-style expanded --indent-type tab --indent-width 1 "
+  }
+}
